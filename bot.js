@@ -111,7 +111,7 @@ if(credits[message.author.id].daily != moment().format('L')) {
          
    
  
-});//LuXy
+});
 
 
 
