@@ -32,6 +32,14 @@ if(luxy.content === 'سلام عليكم') {
 luxy.reply('وعليكم السلام ورحمة الله وبركاته');
 }
 });
+ container_name: discordgiveawaybot
+    image: shukriadams/discord-giveawaybot:latest
+    restart: unless-stopped
+    command: npm start
+    volumes:
+    - ./discord-giveawaybot/:/usr/giveawaybot/discord-giveawaybot/:rw);
+}
+});
 
 
 
