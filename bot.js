@@ -17,6 +17,21 @@ client.on("message", message => {
  message.delete(); 
 };     
 });
+client.on('message', luxy => {
+if(luxy.content === 'هلا') {
+luxy.reply(':hearts: هلا حبيبي');
+}
+});
+client.on('message', luxy => {
+if(luxy.content === 'IP') {
+luxy.reply('Play.NaarMc.fmcs.cf');
+}
+});
+client.on('message', luxy => {
+if(luxy.content === 'سلام عليكم') {
+luxy.reply('وعليكم السلام ورحمة الله وبركاته');
+}
+});
 
 
 
